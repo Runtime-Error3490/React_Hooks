@@ -7,12 +7,12 @@ function HookCounterThree() {
       <input
         type="text"
         value={name.firstName}
-        onChange={(e) => setName({ firstName: e.target.value })}
+        onChange={(e) => setName({...name, firstName: e.target.value })}
       />
       <input
         type="text"
         value={name.lastName}
-        onChange={(e) => setName({ firstName: e.target.value })}
+        onChange={(e) => setName({...name, lastname: e.target.value })}
       />
       <h2>
         Your Name is {name.firstName} {name.lastName}
