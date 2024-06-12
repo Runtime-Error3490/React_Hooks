@@ -11,3 +11,6 @@ To get started with the repository, follow these steps:
 ```bash
 git clone https://github.com/Runtime-Error3490/React_Hooks.git
 cd React_Hooks
+cd <hook-directory>
+npm install
+npm run dev
