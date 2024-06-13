@@ -2,6 +2,7 @@
 import './App.css'
 import HookCounter from './component/HookCounter'
 import HookMouse from './component/HookMouse'
+import IntervalHook from './component/IntervalHook'
 import MouseContainer from './component/MouseContainer'
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <>
      {/* <HookCounter/> */}
      {/* <HookMouse/> */}
-     <MouseContainer/>
+     {/* <MouseContainer/> */}
+     <IntervalHook/>
     </>
   )
 }
