@@ -4,7 +4,10 @@ import { useEffect } from "react";
 
 export default function useCounter() {
   const [count, setCount] = useState(0);
-  useEffect( )
+  useEffect(()=>{
+    document.title=`clicked ${count} times`
+    console.log("hello")
+  })
   return (
     <div>
       <button onClick={() => setCount(count + 1)}>Clicked {count} times</button>
