@@ -9,7 +9,8 @@ UseReducer made useState(UseReducer is a state management hook)<br>
 UseReduer (reducer,initialState)<br>
 UseReducer newState=reducer(currentState,action)<br>
 UseReducer return a pair of values [newState,dispatch]<br>
-
+When you need to cache the function use useCallback <br>
+When yuo need to cache the value of the function use useMemo <br>
 useState vs useReducer
 | Scenario                         | `useState`                            | `useReducer`                             |
 |----------------------------------|---------------------------------------|------------------------------------------|
