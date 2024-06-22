@@ -11,6 +11,7 @@ UseReducer newState=reducer(currentState,action)<br>
 UseReducer return a pair of values [newState,dispatch]<br>
 When you need to cache the function use useCallback <br>
 When yuo need to cache the value of the function use useMemo <br>
+useRef can store any mutable value<br>
 useState vs useReducer
 | Scenario                         | `useState`                            | `useReducer`                             |
 |----------------------------------|---------------------------------------|------------------------------------------|

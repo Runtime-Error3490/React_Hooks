@@ -1,11 +1,13 @@
 import { Component, useCallback } from 'react'
 import './App.css'
 import Counter from './component/Counter'
+import FocusInput from './component/FocusInput'
 
 function App() {
   return (
     <>
-     <Counter/>
+     {/* <Counter/> */}
+     <FocusInput/>
     </>
   )
 }
