@@ -32,4 +32,6 @@ cd <hook-directory>
 npm install
 npm run dev
 
-
+```
+## Some Important Pics:
+![alt text](image.png)
