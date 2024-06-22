@@ -9,6 +9,16 @@ UseReducer made useState(UseReducer is a state management hook)
 UseReduer (reducer,initialState)
 UseReducer newState=reducer(currentState,action)
 UseReducer return a pair of values [newState,dispatch]
+
+useState vs useReducer
+| Scenario                         | `useState`                            | `useReducer`                             |
+|----------------------------------|---------------------------------------|------------------------------------------|
+| **Types of state**               | Number, string, boolean               | Object or array                          |
+| **Number of state transitions**  | One or two                            | Too many (multiple state transitions)    |
+| **Related state transitions**    | No                                    | Yes                                      |
+| **Number of state transitions**  | One or two                            | Too many (multiple state transitions)    |
+
+
 ## Installation
 
 To get started with the repository, follow these steps:
