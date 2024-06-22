@@ -35,3 +35,4 @@ npm run dev
 ```
 ## Some Important Pics:
 ![alt text](image.png)
+![alt text](image-1.png)
