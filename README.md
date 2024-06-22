@@ -5,10 +5,10 @@
 Welcome to the React Hook repository! This repo is dedicated to demonstrating efficient use of React Hooks. Each hook is designed to solve common issues and improve code readability and maintainability.
 
 ## Key Points
-UseReducer made useState(UseReducer is a state management hook)
-UseReduer (reducer,initialState)
-UseReducer newState=reducer(currentState,action)
-UseReducer return a pair of values [newState,dispatch]
+UseReducer made useState(UseReducer is a state management hook)<br>
+UseReduer (reducer,initialState)<br>
+UseReducer newState=reducer(currentState,action)<br>
+UseReducer return a pair of values [newState,dispatch]<br>
 
 useState vs useReducer
 | Scenario                         | `useState`                            | `useReducer`                             |
@@ -16,7 +16,7 @@ useState vs useReducer
 | **Types of state**               | Number, string, boolean               | Object or array                          |
 | **Number of state transitions**  | One or two                            | Too many (multiple state transitions)    |
 | **Related state transitions**    | No                                    | Yes                                      |
-| **Number of state transitions**  | One or two                            | Too many (multiple state transitions)    |
+| **Local vs Global**              | Local                                 | Global                                   |
 
 
 ## Installation
